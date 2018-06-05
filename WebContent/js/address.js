@@ -47,6 +47,7 @@ function addressOnload() {
 
 }
 function updateAddress(addressId) {
+	var dhhddhdhhdj = "dsdsds";
 	alert(addressId)
 }
 function deleteAddress(addressId) {
