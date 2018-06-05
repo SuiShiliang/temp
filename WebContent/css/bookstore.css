@@ -1,0 +1,186 @@
+/* 框架主题样式 */
+.div_body{
+	width: 100%;
+	font-family: KaiTi_GB2312,KaiTi;
+	font-size: 16px;
+	font-weight: bold;
+	color: green;
+}
+/* 导航栏样式 */
+.div_navigation{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid gray;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: #F5F5F5;
+}
+.div_navigation_item{
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	float: right;
+}
+.div_navigation_Loginitem{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	float: right;
+}
+/* 推荐图片样式 */
+.div_recommend{
+	width: 100%;
+	height: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.div_recommend_image{
+	width: 90%;
+	height: 150px;
+	padding-left: 80px;
+	position: relative;
+	margin: auto;
+	background-color: #F5F5F5;
+}
+.div_recommend_image1{
+	width: 100%;
+	height: 150px;
+	padding-right: 145px;
+	position: relative;
+	margin: auto;
+}
+/* 搜索栏样式 */
+.dvi_search{
+	width: 100%;
+	height: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 80px;
+	position: relative;
+}
+.dvi_search_content{
+	width: 90%;
+	height: 80px;
+	padding-left: 80px;
+	position: relative;
+	margin: auto;
+	background-color: #F5F5F5;
+}
+.dvi_search_input{
+	width: 80%;
+	height: 50px;
+	padding: 5px 10px 5px 10px;
+}
+.dvi_search_button{
+	width: 90px;
+	height: 50px;
+	position: relative;
+	top: 3px;
+	left: -10px;
+	line-height: 50px;
+}
+/* 书籍栏样式 */
+.div_book{
+	width: 100%;
+	height: 450px;
+	padding-left: 100px;
+	padding-right: 100px;
+	position: relative;
+}
+.div_booKs{
+	width: 90%;
+	height: 450px;
+	margin: auto;
+	background-color: #F5F5F5;
+}
+.div_book_listBook{
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+.div_book_content{
+	width: 90%;
+	height: 225px;
+	position: relative;
+	margin: auto;
+	top: 50px;
+	left: 0px;
+}
+.div_book_info{
+	width: 180px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #DFDFDF;
+	text-align: center;
+}
+
+.div_image{
+	width: 150px;
+	height: 200px;
+	cursor: pointer;
+}
+.div_introduce{
+	height: 50px;
+	width: 150px;
+}
+.div_store{
+	height: 25px;
+	width: 150px;
+}
+.div_introduce1{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 165px;
+	top: -300px;
+	z-index: 99;
+	display: none;
+	background-color: #F5F5F5;
+	text-align: left;
+}
+/* 页面选择 */
+.dvi_ul{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	position: relative;
+	top: -40px;
+	left: 15%;
+}
+.div_li{
+	height: 80px;
+	line-height: 80px;
+	position: relative;
+	display: inline;
+	cursor: pointer;
+}
+.div_li:hover{
+	background-color: blue;
+	color: yellow;
+}
+.div_li_input{
+	height: 16px;
+	width: 30px;
+	background-color: #bfbfbf;
+    border: 1px solid blue;
+}
+.div_li_button{
+	height: 16px;
+	background-color: white;
+	cursor: pointer;
+}
+/* 版权栏样式 */
+.div_copyright{
+	color: #b9b9b9;
+	text-align: center;
+	position: static;
+	bottom: 0px;
+	height: 50px;
+	line-height: 50px;
+}
+

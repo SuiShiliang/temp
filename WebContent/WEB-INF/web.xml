@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>test_stroe</display-name>
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+  <!-- index界面 -->
+  <servlet>
+    <servlet-name>IndexJsp</servlet-name>
+    <jsp-file>/html/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndexJsp</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 登录 -->
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+   <!-- 注销登录 -->
+  <servlet>
+    <servlet-name>SetCookieInvalidServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.SetCookieInvalidServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SetCookieInvalidServlet</servlet-name>
+    <url-pattern>/SetCookieInvalid</url-pattern>
+  </servlet-mapping>
+  <!-- 注册 -->
+  <servlet>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <!-- 获取书籍列表 -->
+  <servlet>
+    <servlet-name>GetBookListServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetBookListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetBookListServlet</servlet-name>
+    <url-pattern>/GetBookList</url-pattern>
+  </servlet-mapping>
+  <!-- 获取书籍页数 -->
+  <servlet>
+    <servlet-name>GetBookPageCountServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetBookPageCountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetBookPageCountServlet</servlet-name>
+    <url-pattern>/GetBookPageCount</url-pattern>
+  </servlet-mapping>
+  <!-- 判断用户是否存在 -->
+  <servlet>
+    <servlet-name>JudgeUserServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.JudgeUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JudgeUserServlet</servlet-name>
+    <url-pattern>/JudgeUser</url-pattern>
+  </servlet-mapping>
+  <!-- 获取用户所有的信息 -->
+  <servlet>
+    <servlet-name>GetUserInfoAllServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetUserInfoAllServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetUserInfoAllServlet</servlet-name>
+    <url-pattern>/GetUserInfoAll</url-pattern>
+  </servlet-mapping>
+  <!-- 搜索书籍 -->
+  <servlet>
+    <servlet-name>GetBooksListForSerchServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetBooksListForSerchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetBooksListForSerchServlet</servlet-name>
+    <url-pattern>/GetBooksListForSerch</url-pattern>
+  </servlet-mapping>
+  <!-- 根据bookid获取书籍的所有信息 -->
+  <servlet>
+    <servlet-name>GetBookInfoByIdServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetBookInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetBookInfoByIdServlet</servlet-name>
+    <url-pattern>/GetBookInfoById</url-pattern>
+  </servlet-mapping>
+   <!-- 根据bookid获取书籍的章节目录 -->
+  <servlet>
+    <servlet-name>GetBookChaptersByIdServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetBookChaptersByIdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetBookChaptersByIdServlet</servlet-name>
+    <url-pattern>/GetBookChaptersById</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 更改用户信息-->
+  <servlet>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.UpdateUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateUserInfoServlet</servlet-name>
+    <url-pattern>/UpdateUserInfo</url-pattern>
+  </servlet-mapping>
+  <!-- 获取用户地址信息-->
+  <servlet>
+    <servlet-name>GetUserAddressServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.GetUserAddressServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetUserAddressServlet</servlet-name>
+    <url-pattern>/GetUserAddress</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 上传文件 -->
+  <servlet>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <servlet-class>com.bookstore.servlet.UploadFileServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadFileServlet</servlet-name>
+    <url-pattern>/UploadFile</url-pattern>
+  </servlet-mapping>
+</web-app>

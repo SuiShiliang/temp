@@ -1,0 +1,44 @@
+/* 块最外包装 */
+.book_content_div{
+	width: 70%;
+	margin: auto;
+	border: 1px solid #afafaf;
+	background-color: #F5F5F5;
+	margin-top: 5px;
+}
+/* 每个块的标题 */
+.book_content_title_div{
+	width: 100%;
+	height: 50px;
+	background-color: #bee2dd;
+	line-height: 50px;
+	padding-left: 20px;
+}
+/* 书籍基本信息块包装 */
+.book_info_div{
+	width: 100%;
+	height: 400px;
+}
+.book_info_right_div{
+	height: 300px;
+	position: relative;
+	float: left;
+	width: 570px;
+}
+.book_info_image{
+	width: 280px;
+	height: 350px;
+	position: relative;
+	float: left;
+}
+.book_shopping_buuton{
+	cursor: pointer;
+}
+.book_shopping_buuton:hover{
+	background-color: blue;
+	color: white;
+}
+/* 其余书籍块包装 */
+.book_info_div1{
+	width: 100%;
+}
